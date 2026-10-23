@@ -1,3 +1,4 @@
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "agm.h"
 #include <limits.h>
 #include <stdlib.h>
