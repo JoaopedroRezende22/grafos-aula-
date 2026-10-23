@@ -1,3 +1,4 @@
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "agm.h"
 #include <stdio.h>
 static void mostrar(const char*nome,Aresta*a,int k){
