@@ -1,3 +1,4 @@
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "dijkstra.h"
 #include <limits.h>
 #include <stdio.h>
