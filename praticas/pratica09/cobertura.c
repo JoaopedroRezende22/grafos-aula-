@@ -1,3 +1,4 @@
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "cobertura.h"
 #include <stdlib.h>
 #include <string.h>
