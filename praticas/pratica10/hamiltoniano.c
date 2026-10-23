@@ -1,3 +1,4 @@
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "hamiltoniano.h"
 #include <stdlib.h>
 Grafo *criar_grafo(int n){
