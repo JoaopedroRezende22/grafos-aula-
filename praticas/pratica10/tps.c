@@ -1,3 +1,4 @@
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "tps.h"
 #include <limits.h>
 #include <stdlib.h>
