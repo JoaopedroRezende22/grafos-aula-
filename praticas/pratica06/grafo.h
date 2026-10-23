@@ -1,3 +1,4 @@
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #ifndef GRAFO_H
 #define GRAFO_H
 #include <stdlib.h>
