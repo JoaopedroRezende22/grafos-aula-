@@ -56,11 +56,8 @@ int prim(int n,const Aresta*arestas,int m,Aresta*saida){
  for(int i=0;i<n;i++){h.a[i]=(Item){i,i?INT_MAX:0};h.pos[i]=i;pai[i]=-1;}
  int k=0;
  while(h.tam){
+ int peso=h.a[0].chave;
  int u=tirar(&h);if(pai[u]!=-1){
- int peso=0;for(int j=0;j<m;j++)if((arestas[j].u==u&&arestas[j].v==pai[u])||
- (arestas[j].v==u&&arestas[j].u==pai[u])){
- if(peso==0||arestas[j].peso<peso)peso=arestas[j].peso;
- }
  saida[k++]=(Aresta){pai[u],u,peso};
  }
  for(int i=0;i<m;i++){
